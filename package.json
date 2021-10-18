@@ -3,12 +3,12 @@
   "version": "1.0.4",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saurabh-kayasth/rn-webrtc-org.git"
+    "url": "git+https://github.com/saurabh-kayasth/rn-webrtc.git"
   },
   "nativePackage": true,
   "description": "WebRTC for React Native",
   "license": "MIT",
-  "homepage": "https://github.com/saurabh-kayasth/rn-webrtc-org.git",
+  "homepage": "https://github.com/saurabh-kayasth/rn-webrtc.git",
   "keywords": [
     "react-component",
     "react-native",
