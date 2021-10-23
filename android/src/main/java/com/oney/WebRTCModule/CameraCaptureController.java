@@ -238,4 +238,5 @@ public class CameraCaptureController extends AbstractVideoCaptureController {
         Camera2Capturer cameraVideoCapturer = (Camera2Capturer) videoCapturer;
         cameraVideoCapturer.setZoom(zoomValue);
     }
+    
 }

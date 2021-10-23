@@ -1,6 +1,6 @@
 {
   "name": "rn-webrtc",
-  "version": "1.0.4",
+  "version": "1.0.8",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saurabh-kayasth/rn-webrtc.git"
@@ -14,7 +14,8 @@
     "react-native",
     "ios",
     "android",
-    "webrtc"
+    "webrtc",
+    "rn-webrtc"
   ],
   "main": "src/index.js",
   "dependencies": {

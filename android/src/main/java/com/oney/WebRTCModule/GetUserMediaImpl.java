@@ -211,6 +211,7 @@ class GetUserMediaImpl {
                 videoConstraintsMap);
 
             videoTrack = createVideoTrack(cameraCaptureController);
+            
         }
 
         if (audioTrack == null && videoTrack == null) {
