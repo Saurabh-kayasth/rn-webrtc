@@ -8,8 +8,8 @@ This repo is forked from [react-native-webrtc](https://github.com/react-native-w
 A WebRTC module for React Native.
 - Support iOS / macOS / Android.
 - Support Video / Audio / Data Channels.
-- Support zoom on the fly
-- Support maxBitrate setting
+- Support zoom on the fly (Android)
+- Support maxBitrate setting (Android)
 
 **NOTE** for Expo users: this plugin doesn't work unless you eject.
 
