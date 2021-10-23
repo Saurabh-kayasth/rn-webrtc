@@ -1,4 +1,5 @@
 # rn-webrtc
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/WebRTC_Logo.svg/1280px-WebRTC_Logo.svg.png"/>
 
 This repo is forked from [react-native-webrtc](https://github.com/react-native-webrtc/react-native-webrtc).
 
