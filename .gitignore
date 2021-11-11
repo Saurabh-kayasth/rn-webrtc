@@ -2,7 +2,7 @@ node_modules
 xcuserdata
 project.xcworkspace
 .DS_Store
-.idea
+android/.idea
 node_modules/
 android/build
 Podfile.lock

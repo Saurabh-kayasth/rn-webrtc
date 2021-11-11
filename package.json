@@ -6,7 +6,7 @@
     "url": "git+https://github.com/saurabh-kayasth/rn-webrtc.git"
   },
   "nativePackage": true,
-  "description": "WebRTC for React Native",
+  "description": "WebRTC for React Native with zoom and bitrate functionalities.",
   "license": "MIT",
   "homepage": "https://github.com/saurabh-kayasth/rn-webrtc.git",
   "keywords": [

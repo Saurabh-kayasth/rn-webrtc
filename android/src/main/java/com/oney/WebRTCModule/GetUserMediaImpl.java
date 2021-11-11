@@ -266,6 +266,15 @@ class GetUserMediaImpl {
         }
     }
 
+    boolean isZoomSupported(String trackId) {
+        TrackPrivate track = tracks.get(trackId);
+        if (track != null && track.videoCaptureController instanceof CameraCaptureController) {
+            CameraCaptureController cameraCaptureController = (CameraCaptureController) track.videoCaptureController;
+            return cameraCaptureController.isZoomSupported();
+        }
+        return false;
+    }
+
     void getDisplayMedia(Promise promise) {
         if (this.displayMediaPromise != null) {
             promise.reject(new RuntimeException("Another operation is pending."));

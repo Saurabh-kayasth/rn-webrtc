@@ -148,6 +148,15 @@ public class WebRTCModule extends ReactContextBaseJavaModule {
         getUserMediaImpl = new GetUserMediaImpl(this, reactContext);
     }
 
+    @ReactMethod(isBlockingSynchronousMethod = true)
+    public boolean isZoomSupported(String id) {
+        MediaStreamTrack track = getLocalTrack(id);
+        if (track != null) {
+            return getUserMediaImpl.isZoomSupported(id);
+        }
+        return false;
+    }
+
     @Override
     public String getName() {
         return "WebRTCModule";
