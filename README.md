@@ -4,7 +4,7 @@
 This repo is forked from [react-native-webrtc](https://github.com/react-native-webrtc/react-native-webrtc).
 
 [![npm version](https://badge.fury.io/js/rn-webrtc.svg)](https://badge.fury.io/js/react-native-webrtc)
-[![npm downloads](https://img.shields.io/npm/dm/rn-webrtc.svg?maxAge=2592000)](https://img.shields.io/npm/dm/react-native-webrtc.svg?maxAge=2592000)
+[![npm downloads](https://img.shields.io/npm/dt/rn-webrtc.svg?maxAge=2592000)](https://img.shields.io/npm/dm/react-native-webrtc.svg?maxAge=2592000)
 
 A WebRTC module for React Native.
 - Support iOS / macOS / Android.
